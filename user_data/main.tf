@@ -1,7 +1,5 @@
 provider "aws" {
 	region		="us-west-1"
-	#access_key	="AKIA4SKC5ZZXI7IGIDWE"
-	#secret_key	="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"
 }
 resource "aws_s3_bucket" "first_bucket" {
 	bucket		="hahtech-bucket-9956"
